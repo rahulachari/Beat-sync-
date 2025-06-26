@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sync Audio Client</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <h2>🎶 Sync Audio Client</h2>
+
+   <audio id="player" preload="auto" src="{{ url_for('static', filename='sample1.mp3') }}" controls></audio>
+
+    </audio>
+
+    <br />
+
+    <button onclick="sendPlay()">🔊 Play Audio (Broadcast)</button>
+
+    <footer>© 2025 Audio Sync App</footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='sync.js') }}"></script>
+  </body>
+</html>
