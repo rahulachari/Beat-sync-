@@ -170,3 +170,19 @@ GitHub: [github.com/rahulachari](https://github.com/rahulachari)
 ---
 
 > *"Music is better together — Beat Sync makes that possible."*
+
+
+
+
+
+
+
+
+
+##How to Run Locally
+
+1. Clone the repo
+2. pip install -r requirements.txt
+3. python manage.py migrate
+4. python manage.py runserver
+5. Open http://127.0.0.1:8000 in your browser
