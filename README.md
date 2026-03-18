@@ -185,4 +185,4 @@ GitHub: [github.com/rahulachari](https://github.com/rahulachari)
 2. pip install -r requirements.txt
 3. python manage.py migrate
 4. python manage.py runserver
-5. Open http://127.0.0.1:8000 in your browser
+5. Open http://127.0.4.1:7000 in your browser
